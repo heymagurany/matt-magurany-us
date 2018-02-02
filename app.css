@@ -1,0 +1,50 @@
+body {
+  background-color: #3c6997;
+  color: #5adbff;
+}
+
+a {
+  color: #fe9000;
+}
+
+a:hover {
+  color: #ffdd4a;
+}
+
+hr {
+  background-color: #5adbff;
+}
+
+.jumbotron {
+  background-color: #094074;
+}
+
+.sections .icon {
+  color: #fe9000;
+  font-size: 1.5em;
+}
+
+.sections .icon-link svg {
+  font-size: 3em;
+}
+
+.sections .icon-link {
+  margin-left: .5em;
+  margin-right: .5em;
+}
+
+.sections .band {
+  margin: 1em;
+}
+
+.sections .band h6 {
+  color: #ffdd4a;
+}
+
+.sections .band .icon-link {
+  font-size: .5em;
+}
+
+.sections .highlight {
+  color: #ffdd4a;
+}
