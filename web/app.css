@@ -48,3 +48,8 @@ hr {
 .sections .highlight {
   color: #ffdd4a;
 }
+
+.inline-svg {
+  width: 1em;
+  height: 1em;
+}
