@@ -8,7 +8,7 @@
         ],
         "route": "/"
       },
-      "backendUri": "https://stravatofitbit.blob.core.windows.net/web/index.html"
+      "backendUri": "https://mattmaguranyus.blob.core.windows.net/web/index.html"
     },
     "web assets": {
       "matchCondition": {
@@ -17,7 +17,7 @@
         ],
         "route": "/assets/{*file}"
       },
-      "backendUri": "https://stravatofitbit.blob.core.windows.net/web/assets/{file}"
+      "backendUri": "https://mattmaguranyus.blob.core.windows.net/web/assets/{file}"
     },
     "web static": {
       "matchCondition": {
@@ -26,19 +26,7 @@
         ],
         "route": "/{file}.{extension}"
       },
-      "backendUri": "https://stravatofitbit.blob.core.windows.net/web/{file}.{extension}"
-    },
-    "OAuth callback": {
-      "matchCondition": {
-        "methods": [
-          "GET"
-        ],
-        "route": "/oauth/callback/{serviceName}"
-      },
-      "backendUri": "https://strava-to-fitbit.azurewebsites.net/api/oauth-callback",
-      "requestOverrides": {
-        "backend.request.querystring.service_name": "{serviceName}"
-      }
+      "backendUri": "https://mattmaguranyus.blob.core.windows.net/web/{file}.{extension}"
     }
   }
 }
