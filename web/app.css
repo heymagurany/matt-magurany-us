@@ -1,26 +1,31 @@
 body {
-  background-color: #3c6997;
-  color: #5adbff;
+  background-color: #f2efce;
+  color: #554f0e;
 }
 
 a {
-  color: #fe9000;
+  color: #ac772a;
 }
 
 a:hover {
-  color: #ffdd4a;
+  color: #de9227;
 }
 
 hr {
-  background-color: #5adbff;
+  background-color: #554f0e;
 }
 
 .jumbotron {
-  background-color: #094074;
+  background-color: #ac772a;
+  color: #f2efce;
+}
+
+.sections h5 {
+  color: #03989e;
 }
 
 .sections .icon {
-  color: #fe9000;
+  color: #f04f33;
   font-size: 1.5em;
 }
 
@@ -38,7 +43,7 @@ hr {
 }
 
 .sections .band h6 {
-  color: #ffdd4a;
+  color: #de9227;
 }
 
 .sections .band .icon-link {
@@ -46,7 +51,7 @@ hr {
 }
 
 .sections .highlight {
-  color: #ffdd4a;
+  color: #ac772a;
 }
 
 .inline-svg {
