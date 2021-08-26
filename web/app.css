@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body {
   background-color: #f2efce;
   color: #554f0e;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -16,8 +19,31 @@ hr {
 }
 
 .jumbotron {
-  background-color: #ac772a;
+  background-color: #554f0e;
   color: #f2efce;
+}
+
+.jumbotron .logo{
+  width: 100px;
+}
+
+/* .sections {
+  background-image: url('tube-blue.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+} */
+.sections::after {
+  content: "";
+  background-image: url('tube-blue.png');
+  background-repeat:space;
+  background-size: contain;
+  opacity: 0.2  ;
+  top: 400px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
 }
 
 .sections h5 {
@@ -34,8 +60,13 @@ hr {
 }
 
 .sections .icon-link {
+  color: #554f0e;
   margin-left: .5em;
   margin-right: .5em;
+}
+
+.sections .icon-link:hover {
+  color: #ac772a;
 }
 
 .sections .band {
