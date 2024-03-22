@@ -13,5 +13,4 @@ jobs:
           source_dir: web
           container_name: $web
           connection_string: ${{ secrets.ConnectionString }}
-          overwrite: true
           sync: true
